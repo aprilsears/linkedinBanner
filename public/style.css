@@ -19,30 +19,44 @@ body {
 
 
 .quote-container {
-    background-attachment: fixed;
-    background-image: url(https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?q=80&w=1955&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-    background-size: cover;
-    background-position: center;
-    border: .25rem solid rgba(1, 0, 0, 0.607);
-    width: 90dvw;
-    height: 90dvh;
-    margin: auto;
-    border-radius: 2rem;
     display: flex;
     flex-direction: column;
+    background-attachment: fixed;
+    background-image: url(https://images.unsplash.com/photo-1496661415325-ef852f9e8e7c?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    opacity: 65%;
+    border: .5rem solid rgba(1, 0, 0, 0.532);
+    width: 90dvw;
+    height: 90dvh;
+    margin: 1rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    justify-content: flex-end;
 }
 
 
 .quote-text {
-    font-size: 2rem;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    font-family: 'Courier New', Courier, monospace;
     display: flex;
     flex-direction: column;
-    margin: auto;
-    padding: 2rem;
-    border-radius: 1rem;
-    background-color:rgba(216, 171, 116, 0.285);
-    
-
+    align-items: flex-end;
+    color: #000000; 
+    margin: 1rem;   
+    justify-content: right;
 }
-
+p {
+    font-size: 1.5rem;  
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    padding: .6rem;
+    border-radius: 2rem;
+    background-color:rgba(59, 98, 62, 0.449);
+    color: #000000;
+    text-align: right;
+    margin: 1rem;
+}
+    ;    
