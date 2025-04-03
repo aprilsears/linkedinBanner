@@ -27,8 +27,8 @@ body {
     background-position: center;
     opacity: 65%;
     border: .5rem solid rgba(1, 0, 0, 0.532);
-    width: 90dvw;
-    height: 90dvh;
+    width: 1584px;
+    height: 396px;
     margin: 1rem;
     border-radius: 1rem;
     padding: 1rem;
@@ -59,4 +59,4 @@ p {
     text-align: right;
     margin: 1rem;
 }
-    ;    
+    ;
